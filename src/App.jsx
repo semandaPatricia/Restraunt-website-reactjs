@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import HeroSection from './pages/HeroSection'
 import Footer from './components/Footer'
 import HeadlineCards from './components/HeadlineCards'
+import Foods from './components/Foods'
+//import SearchFilter from './components/SearchFilter'
 
 function App() {
   
@@ -12,8 +14,12 @@ function App() {
   return (
     <div className='max-w-[1640px] mx-auto p-4'>
       <Navbar/>
-      <HeroSection/>
+
+
+
+      
       <HeadlineCards/>
+      <Foods/>
       <Footer/>
     </div>
   )

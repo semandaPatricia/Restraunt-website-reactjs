@@ -1,4 +1,4 @@
-export const data = [
+export const foodList = [
     {
       id: 1,
       name: 'Double Cheeseburger',
@@ -126,6 +126,39 @@ export const data = [
         'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
       price: '$$$',
     },
+
+    {
+      id: 17,
+      name: 'pork ribs',
+      category: 'pork',
+      image:
+        'https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+      price: '$$$',
+    },
+    {
+      id: 18,
+      name: 'Pork belly',
+      category: 'pork',
+      image:
+        'https://images.unsplash.com/photo-1624174881680-24efadda7299?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80',
+      price: '$$$',
+    },
+    {
+      id: 19,
+      name: 'Beef steak',
+      category: 'beef',
+      image:
+        'https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      price: '$$$',
+    },
+    {
+      id: 20,
+      name: 'beef stew',
+      category: 'beef',
+      image:
+        'https://images.unsplash.com/photo-1596797038530-2c107229654b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      price: '$$$',
+    },
   ];
   
   export const categories = [
@@ -174,6 +207,18 @@ export const data = [
     {
       id: 8,
       name: 'Shipped Free',
+      image:
+        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
+    },
+    {
+      id: 9,
+      name: 'pork',
+      image:
+        'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
+    },
+    {
+      id: 10,
+      name: 'beef',
       image:
         'https://duyt4h9nfnj50.cloudfront.net/new_search_home_eats_icon/Placeholder_Plates@3x.png',
     },
